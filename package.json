@@ -1,0 +1,15 @@
+{
+  "name": "node-rounds-ledger",
+  "version": "1.0.0",
+  "description": "设备巡检轮次台账后端服务（纯 Node.js + node:sqlite，无第三方依赖）",
+  "type": "commonjs",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "license": "MIT"
+}
